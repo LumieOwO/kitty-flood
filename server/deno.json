@@ -1,0 +1,16 @@
+{
+  "tasks": {
+    "dev": "deno run --watch --allow-read --allow-write --allow-net --allow-env --allow-run main.ts"
+  },
+  "imports": {
+    "@std/assert": "jsr:@std/assert@1",
+    "axios": "npm:axios@^1.7.9",
+    "cors": "npm:cors@^2.8.5",
+    "express": "npm:express@^4.21.2",
+    "https-proxy-agent": "npm:https-proxy-agent@^7.0.6",
+    "node-fetch": "npm:node-fetch@^3.3.2",
+    "random-useragent": "npm:random-useragent@^0.5.0",
+    "socket.io": "npm:socket.io@^4.8.1",
+    "socks-proxy-agent": "npm:socks-proxy-agent@^8.0.5"
+  }
+}
